@@ -1,3 +1,23 @@
+import './normalize.css';
+import './fonts/inter.css';
+import './blocks/body/body.css';
+import './blocks/main/main.css';
+
+import './blocks/to-do/to-do.css';
+import './blocks/to-do/__title/to-do__title.css';
+import './blocks/to-do/__form/to-do__form.css';
+import './blocks/to-do/__input/to-do__input.css';
+import './blocks/to-do/__submit/to-do__submit.css';
+import './blocks/to-do/__list/to-do__list.css';
+import './blocks/to-do/__item/to-do__item.css';
+import './blocks/to-do/__item-text/to-do__item-text.css';
+import './blocks/to-do/__item-button/to-do__item-button.css';
+import './blocks/to-do/__item-button/_type/to-do__item-button_type_delete.css';
+import './blocks/to-do/__item-button/_type/to-do__item-button_type_duplicate.css';
+import './blocks/to-do/__item-button/_type/to-do__item-button_type_edit.css';
+
+import './blocks/footer/footer.css';
+
 let items = [
 	"Сделать проектную работу",
 	"Полить цветы",
