@@ -90,6 +90,20 @@ items.forEach((item) => {
 
 
 const footer = document.querySelector('footer');
-footer.addEventListener('click', () => {
-	footer.textContent = '© Sergio.Praktikum 2025 <3'
-})
+
+function handleFooterClick() {
+    footer.textContent = '<3';
+    footer.style.color = '#a7435cff'; // Красивый розовый
+    footer.style.fontSize = '24px';
+    
+    // Возвращаем обратно через 3 секунды
+    setTimeout(() => {
+        footer.textContent = '© Yandex.Praktikum 2025';
+        footer.style.color = '#898989';
+        footer.style.fontSize = '18px';
+    }, 2000);
+}
+
+// Работает и на компьютере, и на телефоне
+footer.addEventListener('click', handleFooterClick);
+footer.addEventListener('touchstart', handleFooterClick);

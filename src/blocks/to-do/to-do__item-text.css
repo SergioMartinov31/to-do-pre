@@ -6,3 +6,9 @@
   color: #fff;
   padding-inline-end: 50px;
 }
+
+
+.to-do__item-text:focus{
+    outline: 1px solid #ffffff;
+  outline-offset: 2px;
+}
