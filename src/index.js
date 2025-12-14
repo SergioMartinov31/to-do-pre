@@ -90,6 +90,6 @@ items.forEach((item) => {
 
 
 const footer = document.querySelector('footer');
-document.addEventListener('click', () => {
-	alert('<3')
+footer.addEventListener('click', () => {
+	footer.textContent = '© Sergio.Praktikum 2025 <3'
 })
