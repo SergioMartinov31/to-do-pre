@@ -1,0 +1,41 @@
+@media (width <= 560px){
+  .to-do__title{
+    font-size: 40px;
+  }
+
+  .to-do__form{
+    margin-block-start: 40px;
+  }
+  
+  .to-do__submit{
+    width: 100%;
+  }
+
+  .to-do__list{
+    gap:5px;
+  }
+
+  .to-do__item-button{
+    inline-size: 25px;
+  }
+
+  .to-do__input{
+    font-size: 20px;
+  }
+
+  .to-do__submit{
+    font-size: 22px;
+  }
+
+  .to-do__item-text{
+    font-size: 18px;
+    padding-inline-end: 10px;
+    line-height: 20px;
+  }
+
+  .to-do__item{
+    padding: 20px 25px;
+
+  }
+
+}

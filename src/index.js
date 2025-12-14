@@ -86,3 +86,10 @@ items = loadTasks()
 items.forEach((item) => {
 	listElement.append(createItem(item))
 })
+
+
+
+const footer = document.querySelector('footer');
+document.addEventListener('click', () => {
+	alert('<3')
+})
